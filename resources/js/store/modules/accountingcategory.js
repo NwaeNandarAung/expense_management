@@ -1,5 +1,4 @@
 import axios from 'axios';
-import headers from './common';
 
 //state
 const state = {
@@ -15,9 +14,7 @@ const getters = {
 const actions = {
     //all accounting categories
     async getAccountingCategoryList({ commit }) {
-        let response = await axios.get("all_accounting_categories", {
-            headers
-        })
+        let response = await axios.get("all_accounting_categories")
         commit('setAccountingCategoryList', response.data)
     },
 };

@@ -47,7 +47,7 @@ class ExpenseExport implements FromCollection, WithHeadings, WithEvents
 
                 $expenses = $this->expenseToExport($this->filter_by_category, $this->filter_by_date);
 
-                $total_amount = collect($expenses)->SUM("sum_total_price");
+                $total_amount = $expenses ->SUM("sum_total_price");
 
                 $event->sheet->appendRows(array(
                     array('', '', 'Total Expense', $total_amount),

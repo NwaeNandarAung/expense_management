@@ -1,5 +1,4 @@
 import axios from 'axios';
-import headers from './common';
 
 //state
 const state = {
@@ -30,7 +29,6 @@ const actions = {
     // get all expenses
     async getExpenses({ commit }, params) {
         let response = await axios.get("expense", {
-            headers,
             params
         });
 
@@ -41,7 +39,6 @@ const actions = {
     async getTotalAmount({ commit }, params) {
         let response = await axios.get("total_amount", {
             params,
-            headers,
         });
 
         commit('setTotalAmount', response.data)
@@ -49,10 +46,7 @@ const actions = {
 
     //create expense
     async createExpense({ dispatch }, expense) {
-        await axios.post('expense', expense, {
-            headers,
-
-        })
+        await axios.post('expense', expense)
         await dispatch('getExpenses')
         await dispatch('getTotalAmount')
     },
@@ -63,19 +57,14 @@ const actions = {
 
     //update expense
     async updateExpense({ dispatch }, data) {
-        await axios.put(`expense/${data.id}`, data, {
-            headers,
-        })
+        await axios.put(`expense/${data.id}`, data)
         await dispatch('getExpenses')
         await dispatch('getTotalAmount')
     },
 
     //delete expense
     async deleteExpense({ commit }, id) {
-        await axios.delete(`expense/${id}`, {
-            headers,
-
-        })
+        await axios.delete(`expense/${id}`)
         commit('deleteExpense', id);
     },
 
@@ -83,7 +72,6 @@ const actions = {
     async exportExpense({commit},params) {
         await axios.get('/export_expense', {
             params,
-            headers,
             responseType: "blob",
         }).then((res) => {
             const url = window.URL.createObjectURL(new Blob([res.data])); //create DOM string containing URL

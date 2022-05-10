@@ -37,6 +37,26 @@ class ExpenseController extends Controller
         }
     }
 
+    /**
+     * Get total amount of filtered expenses
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return int
+     */
+    public function totalAmount(Request $request)
+    {
+        try 
+        {
+            $expenses = $this->getAllExpenses($request->filter_by_category, $request->filter_by_date);
+           
+            $total_amount = $expenses->sum("total_price");
+            return $total_amount;
+        }
+        catch (Exception $e)
+        {
+            Log::info('Something Wrong In Total Amount By Search Function!!'.' ('. $e->getmessage().')');
+        }
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -170,26 +190,6 @@ class ExpenseController extends Controller
         }
     }
 
-
-    /**
-     * Get total amount of filtered expenses
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return int
-     */
-    public function totalAmount(Request $request)
-    {
-        try 
-        {
-            $expenses = $this->getAllExpenses($request->filter_by_category, $request->filter_by_date);
-            $total_amount = collect($expenses)->sum("total_price");
-            return $total_amount;
-        }
-        catch (Exception $e)
-        {
-            Log::info('Something Wrong In Total Amount By Search Function!!'.' ('. $e->getmessage().')');
-        }
-    }
 
     /**
      * Export Expense

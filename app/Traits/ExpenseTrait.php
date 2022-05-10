@@ -55,10 +55,10 @@ trait ExpenseTrait
 
     //explode date range for filtering function
     public function datePickerFunction($array) {
-        $dateRange = explode("to",$array);
-        $startDate = $dateRange[0];
-        if (array_key_exists(1, $dateRange)) {
-            $endDate =  $dateRange[1];
+        $date_range = explode("to",$array);
+        $startDate = $date_range[0];
+        if (array_key_exists(1, $date_range)) {
+            $endDate =  $date_range[1];
         } else {
             $endDate = $startDate;
         }
