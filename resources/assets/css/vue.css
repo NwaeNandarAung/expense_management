@@ -1,0 +1,1070 @@
+.page-wrapper {
+    padding-top: 10px;
+}
+
+.account-body {
+    background-color: #eaf0f7;
+}
+
+.navbar-custom-menu {
+    background-color: #f8f9fd;
+}
+
+.topbar .navigation-menu .router-link-exact-active {
+    color: #659cef;
+}
+
+.topbar .navigation-menu>li>a {
+    color: #424e66;
+}
+
+.topbar .navigation-menu>li>a :hover {
+    color: #659cef;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #8d989a;
+    padding-bottom: 10px;
+}
+
+.has-search {
+    padding-top: 20px;
+    padding-right: 18px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.input-group-btn {
+    padding-left: 0px;
+}
+
+.btn-search {
+    background-color: #659cef;
+    color: #fff;
+}
+
+.lab-table {
+    background-color: #f7f8fa;
+    width: 98%;
+    margin: auto;
+    border: 1px solid #659cef;
+    margin-bottom: 20px;
+}
+
+.lab-table th {
+    border-top: 1px solid #659cef;
+    border-bottom: 1px solid #659cef;
+    font-weight: bold;
+    color: #659cef;
+}
+
+.lab-table td {
+    font-weight: bold;
+    color: #424e66;
+}
+
+.test-package {
+    font-weight: bold;
+    color: #659cef;
+    padding-bottom: 10px;
+}
+
+.test {
+    font-weight: bold;
+    color: #424e66;
+    font-size: 1em;
+}
+
+.test-footer {
+    background-color: #f7f8fa;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+.btn-lab {
+    background-color: #659cef;
+    color: #fff;
+}
+
+.patient-table tbody tr td .inner-table {
+    border: 1px solid #8d989a;
+}
+
+.patient-table tbody tr td .inner-table thead tr th {
+    background-color: #8d989a;
+    color: #fff;
+}
+
+.inner-table thead tr th {
+    font-weight: bold;
+    color: #fff;
+}
+
+.patient-table tbody tr td .inner-table tbody tr td {
+    color: #8d989a;
+    font-weight: normal;
+}
+
+.table-row {
+    border-collapse: separate !important;
+    border-spacing: 0 10px !important;
+    padding: 0px 30px;
+}
+
+.patient-table {
+    border: 1px solid #659cef;
+    border-collapse: separate;
+    background-color: #f7f8fa;
+    border-radius: 6px;
+}
+
+.patient-table thead:hover {
+    cursor: pointer;
+}
+
+.patient-table th {
+    border-top: 1px solid #659cef;
+    border-bottom: 0px;
+    color: #659cef;
+}
+
+.patient-table tbody tr {
+    border: 0;
+}
+
+.patient-table thead th {
+    background-color: #f7f8fa;
+    border: 0;
+}
+
+.patient-table thead tr th {
+    color: #659cef;
+    font-weight: bold;
+}
+
+.patient-table tbody tr td {
+    color: #424e66;
+    font-weight: bold;
+}
+
+.table-row tr {
+    border-top-left-radius: 10px;
+}
+
+.reject {
+    color: red !important;
+}
+
+.btn-add-user {
+    background-color: #5ebcf2;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.btn-add-clinic {
+    background-color: #ff7584;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.user-row {
+    padding-top: 30px;
+}
+
+.user-card {
+    background-color: #7ebfdb;
+    border-radius: 10px;
+}
+
+.user-card h5 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.user-card h5 small {
+    font-size: 0.9em;
+}
+
+.user-card-footer {
+    background-color: #7ebfdb;
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-action {
+    color: #fff;
+    font-weight: bold;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-yellow {
+    color: #f0bb21;
+}
+
+.color-red {
+    color: #e33b3b;
+}
+
+.user-form {
+    padding: 30px 30px;
+}
+
+.user-form label {
+    color: #424e66;
+    font-weight: bold;
+}
+
+.user-form ::placeholder {
+    color: #a0a8be;
+}
+
+.user-form .form-control {
+    border: 1px solid #659cef;
+}
+
+.btn-save {
+    font-weight: bold;
+    background-image: linear-gradient(to right, #89a0f5 0%, #89a1f5 40%, #2a87cc 100%);
+    color: #fff;
+    padding: 8px 25px;
+}
+
+.btn-back {
+    font-weight: bold;
+    padding: 8px 25px;
+    background-color: #a0a8be;
+    color: #fff;
+}
+
+.btn-info {
+    font-weight: bold;
+}
+
+.membership-table thead {
+    background-color: #659cef;
+}
+
+.membership-table thead tr th {
+    color: #fff;
+    font-weight: bold;
+}
+
+.vm--modal {
+    padding: 30px 50px;
+}
+
+.vgt-table thead th {
+    color: #dae2f0;
+    border-bottom: 1px solid #659cef;
+    background: linear-gradient(#659cef, #659cef);
+}
+
+.vgt-global-search {
+    background: linear-gradient(#659cef, #659cef);
+}
+
+.vgt-table th.line-numbers,
+.vgt-table th.vgt-checkbox-col {
+    background: linear-gradient(#659cef, #659cef);
+    color: #dae2f0;
+}
+
+.expense-form .form-control {
+    border: 1px solid #659cef;
+}
+
+.expense-form .form-row .form-group {
+    padding: 10px 30px;
+}
+
+.expense-form label {
+    font-weight: bold;
+    color: #424e66;
+}
+
+.total-amount {
+    text-align: right;
+    font-weight: bold;
+}
+
+.expense-table {
+    border: 1px solid #dedfe2;
+}
+
+.expense-table thead {
+    background-color: #659cef;
+}
+
+.expense-table thead tr th {
+    color: #fff;
+    font-weight: bold;
+}
+
+.expense-table tfoot {
+    background-color: #659cef;
+}
+
+.expense-table tfoot p {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.login-card {
+    margin: auto;
+    float: none;
+    width: 35%;
+    border-radius: 2em;
+}
+
+.auth-form .form-control {
+    border-radius: 50px;
+    padding-right: 40px;
+}
+
+.auth-form .auth-form-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #eff2f9;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    right: 3px;
+    z-index: 100;
+    top: 3px;
+    color: #a0a8be;
+}
+
+.auth-form .input-group .form-rounded {
+    border-radius: 5em;
+}
+
+.vue-step-wizard {
+    width: 100%;
+}
+
+.step-progress {
+    display: none;
+}
+
+.step-pills .step-item {
+    background-color: #dceaef;
+    border: 1px solid #dceaef;
+    border-radius: 5vw;
+}
+
+.step-pills .step-item.active {
+    background-color: #659cef;
+    border: 1px solid #659cef;
+}
+
+.step-pills .step-item.validated {
+    border: 1px solid #659cef;
+}
+
+.step-pills .step-item a {
+    color: #659cef;
+    font-weight: bold;
+}
+
+.step-pills .step-item.active a {
+    color: #dceaef;
+}
+
+.step-item .tabStatus {
+    color: #659cef;
+    border: 1px solid #659cef;
+    background-color: #dceaef;
+}
+
+.step-item.active .tabStatus {
+    color: #dceaef;
+    border: 1px solid #dceaef;
+    background-color: #659cef;
+}
+
+.step-body .form-control {
+    border: 1px solid #659cef;
+}
+
+.step-body .form-group {
+    padding: 10px 30px;
+}
+
+.step-body .form-row>.col,
+.form-row>[class*=col-] {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.step-body .form label {
+    font-weight: bold;
+    color: #424e66;
+}
+
+.invalid-feedback {
+    font-size: 100%;
+}
+
+.test-row {
+    border: 1px solid #659cef;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.test-row .tab-content {
+    border: 0;
+}
+
+.sub-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sub-col .nav-pills {
+    background-color: #dceaef;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.sub-col .nav-pills .nav-link {
+    font-weight: bold;
+    color: #424e66;
+    border-radius: 0px;
+}
+
+.sub-col .nav-pills .nav-link.active {
+    background-color: #659cef;
+    color: #fff;
+}
+
+.step-button-previous {
+    background-color: #424e66;
+}
+
+.step-button-next {
+    background-color: #659cef;
+}
+
+.invoice-card {
+    border: 1px solid #a0a8be;
+}
+
+.invoice-card .card-header {
+    background-color: #659cef;
+}
+
+.invoice-head .contact-detail li {
+    border-left: 2px solid #659cef;
+}
+
+.invoice-head .contact-detail li i,
+.invoice-head .contact-detail li .text-muted {
+    color: #659cef !important;
+    font-weight: bold;
+}
+
+.invoice-label h6,
+.invoice-label h6 b {
+    color: #424e66;
+}
+
+.invoice-table thead {
+    background-color: #7ebfdb;
+}
+
+.invoice-table thead tr th {
+    color: #fff;
+    font-weight: bold;
+}
+
+.invoice-table tbody tr td {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: 1px solid #dceaef;
+    border-right: 1px solid #dceaef;
+    font-weight: bold;
+}
+
+.invoice-table tbody tr:last-child {
+    border-bottom: 1px solid #dceaef !important;
+}
+
+.invoice-card-footer {
+    background-color: #fff;
+}
+
+.invoice-table tfoot tr td {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: 1px solid #dceaef !important;
+    border-right: 1px solid #dceaef !important;
+}
+
+.invoice-table tfoot tr:last-child {
+    border-bottom: 1px solid #dceaef !important;
+}
+
+.invoice-table tfoot h6 {
+    font-weight: bold;
+    color: #424e66;
+}
+
+.total-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #087ebe;
+    color: #fff;
+    font-weight: bold;
+}
+
+.total-section h4 {
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.installment-section h6,
+h5 {
+    font-weight: bold;
+    color: #424e66;
+}
+
+
+.installment-section .remaining-balance {
+    background-color: #dceaef;
+}
+
+.installment-section .remaining-balance .col h6 {
+    color: red;
+}
+
+
+.patient-table tbody tr td .requisition-table {
+    border: 1px solid #7ebfdb;
+}
+
+.patient-table tbody tr td .requisition-table thead tr th {
+    background-color: #7ebfdb;
+    color: #fff;
+}
+
+.requisition-table thead tr th {
+    font-weight: bold;
+    color: #fff;
+}
+
+.patient-table tbody tr td .requisition-table tbody tr td {
+    color: #424e66;
+    font-weight: normal;
+    border-left: 1px solid #7ebfdb;
+    border-right: 1px solid #7ebfdb;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.btn-print {
+    background-color: #2aa945;
+    color: #fff;
+}
+
+.btn-paying-balance {
+    background-color: #bf1039;
+    color: #fff;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.btn-retest {
+    background-color: #17a482;
+    color: #fff;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.btn-transfer {
+    background-color: #2aa945;
+    color: #fff;
+    min-width: 150px;
+    max-width: 150px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.btn-print-barcode {
+    background-color: #2aa945;
+    color: #fff;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.fa-check {
+    color: #2aa945;
+}
+
+
+.btn-invoice {
+    background-color: #5ebcf2;
+    color: white;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.btn-approve {
+    background-color: #17a482;
+    color: white;
+    min-width: 100px;
+    max-width: 100px;
+
+}
+
+.btn-reject {
+    background-color: #bf1039;
+    color: #fff;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.btn-history {
+    background-color: #5ebcf2;
+    color: #fff;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.remaining-table {
+    margin-top: 100px;
+}
+
+.remaining-table h1 {
+    color: #bf1039;
+    font-weight: bolder;
+}
+
+.remaining-table tfoot h6 {
+    font-weight: bold;
+    color: #424e66;
+}
+
+.btn-plus {
+    background-color: #f7f8fa;
+    color: #659cef;
+}
+
+.btn-minus {
+    background-color: #f7f8fa;
+    color: #f0530b;
+}
+
+.report-patient-row {
+    margin-top: 100px;
+}
+
+.report-patient-info h5 {
+    float: left;
+    font-weight: lighter;
+}
+
+.report-card {
+    text-align: justify;
+}
+
+.report-patient-semi h5 {
+    text-align: end;
+}
+
+.report-test-table {
+    border: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.report-test-table td {
+    width: 20%
+}
+
+.report-test-table tr th {
+    padding-bottom: 0px;
+}
+
+.report-test-table thead,
+.report-test-table thead th,
+.report-test-table thead tr,
+.report-test-table tbody tr,
+.report-test-table tbody td {
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.report-test-table tbody td h5 {
+    font-weight: lighter;
+}
+
+.signature-section {
+    float: right;
+    padding-right: 20px;
+    color: black;
+    padding-top: 50px;
+}
+
+.signature-section h3 {
+    font-weight: bold;
+}
+
+.complete-list-table h3 {
+    color: #659cef;
+    font-weight: bold;
+}
+
+.complete-list-table tr td {
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.apexcharts-menu-icon {
+    display: none;
+}
+
+.not-found-card h1 {
+    color: red;
+    background-color: #fff;
+}
+
+.not-found-card .card-footer {
+    background-color: #fff;
+}
+
+.bar-chart {
+    width: 100%;
+}
+
+.rs-pagination {
+    display: none;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.pagination>li {
+    display: inline;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
+    z-index: 3;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.pagination>.disabled>span,
+.pagination>.disabled>span:hover,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>a,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.pagination-lg>li>a,
+.pagination-lg>li>span {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.pagination-lg>li:first-child>a,
+.pagination-lg>li:first-child>span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.pagination-lg>li:last-child>a,
+.pagination-lg>li:last-child>span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pagination-sm>li>a,
+.pagination-sm>li>span {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.pagination-sm>li:first-child>a,
+.pagination-sm>li:first-child>span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.pagination-sm>li:last-child>a,
+.pagination-sm>li:last-child>span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.paid_amount_print,
+.discount_print,
+.sub_total_print,
+.payment_print,
+.payment_print {
+    display: none;
+}
+
+
+@media print {
+
+    .paid_amount_print,
+    .discount_print,
+    .sub_total_print,
+    .payment_print,
+    .payment_print {
+        display: block;
+    }
+
+    .paid_amount_screen,
+    .discount_screen,
+    .sub_total_screen,
+    .payment_screen,
+    .payment_screen,
+    .invoice-button-screen,
+    .print-button-screen,
+    .requisition-card-screen,
+    .barcode-save-screen,
+    .modal-close-screen,
+    .report-button-screen {
+        display: none;
+    }
+
+    .print-button-screen {
+        padding-bottom: 20px;
+    }
+}
+
+@media print {
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+        background: white;
+        -webkit-print-color-adjust: exact;
+        -moz-print-color-adjust: exact;
+        -ms-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .invoice-table tfoot {
+        page-break-inside: auto;
+        page-break-after: auto;
+    }
+
+    .total-section,
+    .installment-section {
+        page-break-inside: avoid;
+    }
+
+    .invoice-card .card-header {
+        background-color: #659cef;
+    }
+
+    .invoice-head .invoice-personal-info {
+        position: fixed;
+        page-break-inside: auto;
+        page-break-after: auto;
+    }
+
+    .invoice-label h6,
+    .invoice-label h6 b {
+        color: #424e66;
+        font-size: 14px;
+    }
+
+    .invoice-table thead tr th {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: #7ebfdb !important;
+    }
+
+    .invoice-table tbody tr td {
+        border-top: none !important;
+        border-bottom: none !important;
+        border-left: 1px solid #dceaef;
+        border-right: 1px solid #dceaef;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .invoice-table tbody tr:last-child {
+        border-bottom: 1px solid #dceaef !important;
+    }
+
+    .invoice-card-footer {
+        background-color: #fff;
+    }
+
+    .invoice-table tfoot tr td {
+        border-top: none !important;
+        border-bottom: none !important;
+        border-left: 1px solid #dceaef !important;
+        border-right: 1px solid #dceaef !important;
+        font-size: 14px;
+    }
+
+    .invoice-table tfoot tr:last-child {
+        border-bottom: 1px solid #dceaef !important;
+    }
+
+    .invoice-table tfoot h6 {
+        font-weight: bold;
+        color: #424e66;
+        font-size: 14px;
+    }
+
+    thead#create-invoice-thead,
+    thead#update-invoice-thead {
+        display: table-header-group;
+    }
+
+    .invoice-header,
+    .invoice-header-space {
+        height: 150px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .invoice-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .invoice-page {
+        page-break-after: always;
+    }
+
+    thead#page-thead {
+        display: table-header-group;
+        padding-bottom: 10px;
+    }
+
+    .page-header,
+    .page-header-space {
+        height: 300px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .page-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .page-footer,
+    .page-footer-space {
+        padding: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    .page-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    tfoot#page-tfoot {
+        display: table-footer-group;
+    }
+
+    .page {
+        page-break-after: always;
+    }
+
+}

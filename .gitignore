@@ -1,0 +1,16 @@
+/node_modules
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log  
+.htaccess
+webpack.mix.js.backup
+public/js/all.js
+public/js/app.js
+public/css/all.css
+public/css/app.css
